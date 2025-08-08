@@ -1,8 +1,9 @@
 package com.myproject.dominio;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class Pessoa {
+public class Pessoa implements Serializable {
     private Integer id;
     private String nome;
     private String email;
